@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC - Wikipedia Search Engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:300,400,500" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="container" class="view-initial">
+	<div id="banner-bkgrd">
+		<div id="banner-overlay" class="expand-vertical">
+			<header id="search-container" class="flex-column flex-center">
+				<div id="search-heading">
+					<h1>Wikipedia Search Engine</h1>
+				</div>
+				<form id="search-form" class="flex-inline">
+					<input id="search-input" type="text" autocomplete="off" tabindex="1" autocapitalize="off" autocorrect="off" name="search-query" placeholder="I'm feeling wiki" />
+					<input id="search-clear" class "" type="button" tabindex="3" value="×">
+					<input id="search-btn" type="submit" tabindex="2" class="fa fa-wikipedia-w fa-lg" value="&#xf266;" title="Search" />
+				</form>
+			</header>
+			<div id="credits">
+				<small>Designed and coded by <a href="http://tommoore.me.uk" target="_blank">Tom Moore</a></small>
+			</div>
+		</div> <!--/banner-overlay-->
+	</div> <!--/banner-->
+	<main id="results">
+		<div id="cards" class="flex-row flex-wrap"></div>
+	</main> <!--/results-->
+</div> <!--/container-->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
